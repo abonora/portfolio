@@ -2,24 +2,18 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "Gruntfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abonora/portfolio.git"
-  },
-  "author": "albertob",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abonora/portfolio/issues"
-  },
-  "homepage": "https://github.com/abonora/portfolio#readme",
   "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-less": "^2.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "jit-grunt": "^0.10.0"
+    "grunt": "~0.4.4",
+    "grunt-autoprefixer": "^0.8.2",
+    "grunt-contrib-cssmin": "latest",
+    "jpegtran-bin": "0.2.0",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-newer": "^0.7.0",
+    "jshint-stylish": "latest"
   }
 }
