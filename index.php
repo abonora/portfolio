@@ -15,7 +15,19 @@
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="dist/css/min/main.min.css" type="text/css" media="all">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+    <?php
+    if (substr($_SERVER['REMOTE_ADDR'], 0, 4) == '127.' || $_SERVER['REMOTE_ADDR'] == '::1') {
+      echo '<link rel="stylesheet" href="dist/css/raw/main.css" type="text/css" media="all">';
+    }else{
+      echo '<link rel="stylesheet" href="dist/css/min/main.min.css" type="text/css" media="all">';
+    }
+    ?>
+    <script src="dist/js/scripts.js"></script>
+
+    <!-- <link rel="stylesheet" href="dist/css/min/main.min.css" type="text/css" media="all"> -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-683832-1"></script>
@@ -29,7 +41,15 @@
 
   </head>
   <body>
-    <div class="wrapper">
+    <nav>
+      <h1>ab</h1>
+      <ul class="links-wrapper">
+        <li class="twitter"><a href="https://twitter.com/abonora" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li class="github"><a href="https://github.com/abonora" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/abonora" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+    </nav>
+    <section id="FullPageOne" class="full-page-wrapper">
       <div class="info-wrapper">
         <h1>albertobonora.ca</h1>
         <p>Toronto based Web Developer</p>
@@ -40,6 +60,16 @@
         </ul>
       </div>
       <span class="version">0.0.1</span>
-    </div>
+    </section>
+    <section id="FullPageTwo" class="full-page-wrapper">
+      <div class="info-wrapper">
+        <h1>Slide 2</h1>
+      </div>
+    </section>
+    <section id="FullPageThree" class="full-page-wrapper">
+      <div class="info-wrapper">
+        <h1>Slide 3</h1>
+      </div>
+    </section>
   </body>
 </html

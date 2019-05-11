@@ -61,8 +61,8 @@ body{
             }
         }
     }
-    .wrapper{
-        width: 100vw;
+    .full-page-wrapper{
+        width: 100%;
         height: 100vh;
         position: relative;
         display: block;
@@ -71,6 +71,15 @@ body{
             top: 70%;
             right: 10px;
             transform: translateY(-70%); 
+
+            opacity: 1;
+            transition: all 150ms ease-in-out;
+
+            &.hideme{
+                opacity: 0;
+                transform: translateY(-140%);
+                transition-delay: 150ms;
+            }
         }
         .version{
             position: absolute;
@@ -81,4 +90,9 @@ body{
             opacity: .6;
         }
     }
+    #FullPageTwo{
+        background-color: black;
+    }
 }
+
+@import '../less-inc/_nav.less';
