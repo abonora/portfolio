@@ -10,5 +10,6 @@ console.log(offsettest.top);
   else {
     $('nav').removeClass('sticky');
     $('#FullPageOne .info-wrapper').removeClass('hideme');
+
   }
 });

@@ -9,7 +9,7 @@
     <title>albertobonora.ca Toronto Based Web Developer</title>
     <meta property="og:title" content="Alberto Bonora | Web Developer" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.albertobonora.ca/" />
+    <meta property="og:url" content="https://www.albertobonora.com/" />
     <meta property="og:image" content="img/bg.jpg" />
     <meta property="og:description" content="Toronto based web developer with experience in using and building on Wordpress, JS, CSS, VueJS, React & more."/>
 
@@ -42,7 +42,7 @@
   </head>
   <body>
     <nav>
-      <h1>ab</h1>
+      <h1>albertobonora.com</h1>
       <ul class="links-wrapper">
         <li class="twitter"><a href="https://twitter.com/abonora" target="_blank"><i class="fab fa-twitter"></i></a></li>
         <li class="github"><a href="https://github.com/abonora" target="_blank"><i class="fab fa-github"></i></a></li>
@@ -51,7 +51,7 @@
     </nav>
     <section id="FullPageOne" class="full-page-wrapper">
       <div class="info-wrapper">
-        <h1>albertobonora.ca</h1>
+        <h1>albertobonora.com</h1>
         <p>Toronto based Web Developer</p>
         <ul class="links-wrapper">
           <li class="twitter"><a href="https://twitter.com/abonora" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
@@ -61,7 +61,26 @@
       </div>
       <span class="version">0.0.1</span>
     </section>
-    <section id="FullPageTwo" class="full-page-wrapper">
+    <section id="AboutSlide" class="full-page-wrapper">
+      <div class="info-wrapper">
+        <h2>About</h2>
+        <p>icons to use: wordpress html css js vue react php kentico</p>
+        <ul>
+          <li><i class="fab fa-wordpress"></i></li>
+          <li><i class="fab fa-html5"></i></li>
+          <li><i class="fab fa-css3-alt"></i></li>
+          <li><i class="fab fa-js"></i></li>
+          <li><i class="fab fa-vuejs"></i></li>
+          <li><i class="fab fa-react"></i></li>
+          <li><i class="fab fa-php"></i></li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <h2>small footer</h2>
+      <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </footer>
+    <!-- <section id="FullPageTwo" class="full-page-wrapper">
       <div class="info-wrapper">
         <h1>Slide 2</h1>
       </div>
@@ -70,6 +89,6 @@
       <div class="info-wrapper">
         <h1>Slide 3</h1>
       </div>
-    </section>
+    </section> -->
   </body>
 </html
